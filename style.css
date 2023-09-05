@@ -1,0 +1,595 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name: Calderwood
+ Theme URI: https://calderwoodseminars.org/
+ Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+ Author: piash
+ Author URI: https://finestwebgeek.com/
+ Template: generatepress
+ Version: 1.0.1
+ Text Domain: generatepress-child
+ License: GNU General Public License v3 or later.
+ License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+/* COMMON CSS START */
+body {
+  background: #fff !important;
+  overflow-x: hidden;
+}
+.margin-bottom {
+  margin-bottom: 0 !important;
+}
+.margin-bottom p:last-child {
+  margin-bottom: 0 !important;
+}
+.margin-bottom h1,
+.margin-bottom h2,
+.margin-bottom h3,
+.margin-bottom h4,
+.margin-bottom h5,
+.margin-bottom h6 {
+  margin-bottom: 0 !important;
+}
+div#right-sidebar {
+  display: none;
+}
+.site-content .content-area {
+  width: 100% !important;
+}
+.site-content header.entry-header {
+  display: none !important;
+}
+.site-content .inside-article {
+  padding: 0 !important;
+  background: transparent !important;
+}
+.site-content .entry-content {
+  margin: 0 !important;
+}
+.separate-containers .site-main {
+  margin: 0 !important;
+}
+.margin-bottom {
+  margin-bottom: 0 !important;
+}
+.margin-bottom p:last-child {
+  margin-bottom: 0 !important;
+}
+.margin-bottom h1,
+.margin-bottom h2,
+.margin-bottom h3,
+.margin-bottom h4,
+.margin-bottom h5,
+.margin-bottom h6 {
+  margin-bottom: 0 !important;
+}
+.margin-bottom ul {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+/* COMMON CSS END */
+.header-area .elementor-nav-menu--main li.menu-item a {
+  border-width: 0 !important;
+}
+.footer-email a {
+  color: #fff !important;
+  text-decoration: underline !important;
+  transition: .3s all;
+}
+.footer-email a:hover {
+  color: #C76C14 !important;
+}
+.link-item a {
+  color: #C76C14 !important;
+  text-decoration: underline !important;
+  transition: .3s all;
+}
+.link-item a:hover {
+  color: #202A62 !important;
+}
+.black-link-item a {
+  color: #414042 !important;
+  text-decoration: underline !important;
+  transition: .3s all;
+}
+.black-link-item a:hover {
+  color: #C76C14 !important;
+}
+.cta-area .elementor-widget-wrap {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 20px;
+}
+.cta-area .elementor-widget-call-to-action {
+  width: 32% !important;
+}
+.cta-area .elementor-cta__button-wrapper {
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  z-index: 999 !important;
+}
+.cta-area .elementor-cta__content {
+  overflow: inherit !important;
+  min-height: 300px;
+  background: transparent !important;
+}
+.cta-area .elementor-cta__content .elementor-cta__title {
+  margin-bottom: 0 !important;
+}
+.cta-area .elementor-cta {
+  overflow: inherit !important;
+  height: 100% !important;
+}
+.cta-area .elementor-widget-container {
+  overflow: inherit !important;
+  height: 100% !important;
+}
+.cta-area .elementor-widget-call-to-action {
+  margin-bottom: 50px !important;
+}
+.video-time-title-list ul {
+  list-style: none !important;
+  margin: 0 !important;
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 20px !important;
+}
+.video-time-title-list ul li:first-child {
+  text-align: right !important;
+  width: 33%;
+}
+.video-time-title-list ul li:last-child {
+  text-align: left !important;
+  width: 62%;
+}
+.home-page-form .frm_primary_label {
+  display: none !important;
+}
+.home-page-form .frm_error_style {
+  padding: 6px 15px !important;
+}
+.home-page-form p {
+  margin: 0 !important;
+}
+.home-page-form form fieldset {
+  padding-bottom: 0 !important;
+}
+.home-page-form form textarea {
+  resize: none;
+}
+.home-page-form form textarea,
+.home-page-form form input {
+  box-shadow: none !important;
+  border: 1px solid #b3b3b3 !important;
+  padding: 11px 15px !important;
+  height: inherit !important;
+  line-height: 1 !important;
+  font-size: 18px !important;
+  color: #414042 !important;
+  font-weight: 400 !important;
+  font-family: "Open Sans", Sans-serif !important;
+  border-radius: 12px !important;
+}
+.home-page-form form textarea::placeholder,
+.home-page-form form input::placeholder {
+  color: #414042 !important;
+  opacity: 1 !important;
+}
+.home-page-form form textarea:focus,
+.home-page-form form input:focus {
+  box-shadow: none !important;
+}
+.home-page-form form .frm_submit {
+  text-align: center;
+}
+.home-page-form form button.frm_button_submit {
+  letter-spacing: 0.25em !important;
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+  line-height: 1 !important;
+  background: #c76c14 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 22px 60px !important;
+  height: inherit !important;
+  min-height: inherit !important;
+  transition: .3s all;
+}
+.home-page-form form button.frm_button_submit:hover {
+  color: #fff !important;
+  background: #202A62 !important;
+}
+.log-in-page-form form .frm_submit {
+  text-align: right !important;
+}
+.btns-area .elementor-widget-call-to-action {
+  width: 22.5% !important;
+}
+.table-area th {
+  font-family: "Old Standard TT", Sans-serif;
+  color: #626D61;
+  font-size: 16px !important;
+  text-transform: uppercase;
+}
+.table-area table {
+  border: 0 !important;
+}
+.table-area table thead {
+  border: 0 !important;
+}
+.table-area tr {
+  border: 0 !important;
+  vertical-align: sub;
+}
+.table-area tbody {
+  border: 0 !important;
+}
+.table-area th {
+  border: 0 !important;
+  text-align: left;
+}
+.table-area td {
+  border: 0 !important;
+}
+.dashboard-list ul li a {
+  text-decoration: none !important;
+}
+/*=================================
+        MEDIA QUERY START
+===================================*/
+@media all and (max-width: 1400px) {
+  .title br {
+    display: none !important;
+  }
+}
+@media all and (max-width: 1200px) {
+  .cta-area .elementor-widget-call-to-action {
+    width: 30% !important;
+  }
+  .cta-area .elementor-cta__content {
+    min-height: 100% !important;
+  }
+  .cta-area .elementor-cta__content .elementor-cta__title br {
+    display: none !important;
+  }
+}
+@media all and (max-width: 1024px) {
+  .header-area .logo a {
+    position: relative;
+    z-index: 99999 !important;
+  }
+  .header-area .menu-col {
+    position: absolute;
+    width: 100% !important;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+  }
+  .header-area .elementor-menu-toggle {
+    padding: 0 !important;
+    background: transparent !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+    text-align: right;
+  }
+  .header-area .elementor-menu-toggle:hover {
+    color: #C76C14 !important;
+  }
+  .header-area .elementor-menu-toggle i {
+    font-size: 36px !important;
+    transition: .3s all;
+    opacity: 1 !important;
+  }
+  .header-area .elementor-menu-toggle i:hover {
+    color: #C76C14 !important;
+  }
+  .header-area nav.elementor-nav-menu--dropdown {
+    position: absolute !important;
+    width: 100% !important;
+    top: 100% !important;
+    margin-top: 23px !important;
+  }
+  .header-area .elementor-nav-menu--dropdown ul li a:focus {
+    background: #C76C14 !important;
+    color: #fff !important;
+  }
+  .footer-menu li a {
+    justify-content: center !important;
+  }
+  .cta-area .elementor-widget-call-to-action {
+    width: 47% !important;
+  }
+  .cta-area .elementor-widget-call-to-action {
+    margin-bottom: 35px !important;
+  }
+  .cta-area .elementor-cta__content {
+    padding: 40px 20px 50px 20px !important;
+  }
+  .cta-area .elementor-cta__content .elementor-cta__title {
+    font-size: 22px !important;
+  }
+  .cta-area .elementor-cta__content a.elementor-cta__button {
+    letter-spacing: 0.2em !important;
+    font-size: 16px !important;
+    padding: 16px 20px 16px 20px !important;
+  }
+  .video-time-area .elementor-container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .video-time-area .elementor-column {
+    width: 100% !important;
+  }
+  .video-time-area .elementor-column:first-child {
+    order: 2;
+  }
+  .video-time-area .elementor-column:last-child {
+    order: 1;
+    margin-bottom: 30px !important;
+  }
+  .btns-area .elementor-widget-call-to-action {
+    width: 30% !important;
+  }
+  .buttons-area .elementor-widget-wrap {
+    grid-column-gap: 25px !important;
+    grid-row-gap: 25px !important;
+  }
+  .table-area .elementor-widget-container {
+    overflow-x: scroll;
+  }
+  .table-area table {
+    width: 980px !important;
+  }
+  .home-page-form form button.frm_button_submit {
+    letter-spacing: 0.2em !important;
+    padding: 19px 40px !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .cta-area .elementor-widget-call-to-action {
+    width: 100% !important;
+  }
+  .cta-area .elementor-cta__content a.elementor-cta__button {
+    letter-spacing: 0.1em !important;
+  }
+  .home-page-form form textarea,
+  .home-page-form form input {
+    font-size: 16px !important;
+  }
+  .right-img-order1 .elementor-container {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .right-img-order1 .elementor-column:first-child {
+    order: 2;
+  }
+  .right-img-order1 .elementor-column:last-child {
+    order: 1;
+  }
+  .btns-area .elementor-widget-call-to-action {
+    width: 47% !important;
+  }
+  .home-page-form form button.frm_button_submit {
+    letter-spacing: 0.2em !important;
+    padding: 17px 30px !important;
+  }
+}
+@media all and (max-width: 479px) {
+  .cta-area .elementor-cta__content {
+    padding: 30px 15px 50px 15px !important;
+  }
+  .cta-area .elementor-cta__content .elementor-cta__title {
+    font-size: 20px !important;
+  }
+  .cta-area .elementor-cta__content a.elementor-cta__button {
+    font-size: 14px !important;
+    padding: 14px 15px 14px 15px !important;
+  }
+  .video-time-title-list ul {
+    display: block !important;
+    margin-bottom: 15px !important;
+  }
+  .video-time-title-list ul li {
+    width: 100% !important;
+  }
+  .video-time-title-list ul li:first-child,
+  .video-time-title-list ul li:last-child {
+    text-align: left !important;
+  }
+  .video-time-title-list ul li:first-child {
+    margin-bottom: 5px !important;
+  }
+  .home-page-form form button.frm_button_submit {
+    padding: 13px 20px !important;
+    letter-spacing: 0.1em !important;
+  }
+  .btns-area .elementor-widget-call-to-action {
+    width: 100% !important;
+  }
+}
+.footer-menu ul {
+  z-index: 1 !important;
+}
+.title span {
+  color: #c76c14;
+  font-style: italic;
+}
+.title-divider {
+  display: flex;
+  align-items: center !important;
+  white-space: nowrap;
+}
+.title-divider::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #8d959a;
+  margin: 0 0 0 30px;
+}
+.pen-img img {
+  float: left;
+}
+.teaching-cta-area .elementor-widget-call-to-action {
+  width: 45% !important;
+}
+.teaching-cta-area .elementor-widget-wrap {
+  grid-column-gap: 8% !important;
+  grid-row-gap: 50px;
+}
+.teaching-cta-area .elementor-widget-call-to-action {
+  margin-bottom: 20px;
+}
+.teaching-cta-area .elementor-cta__description span {
+  padding-bottom: 30px;
+  display: block;
+  margin-bottom: 0;
+}
+.teaching-cta-area .elementor-cta__description {
+  margin-bottom: 0;
+}
+.teaching-cta-area .elementor-cta__content {
+  align-content: start !important;
+}
+.teaching-cta-area .elementor-cta__title {
+  padding-bottom: 10%;
+}
+.teaching-cta-area .elementor-widget-call-to-action {
+  margin-bottom: 30px !important;
+}
+.student-publications-list ul li::marker {
+  color: #C76C14;
+}
+.student-publications-list ul {
+  margin: 0 0 0 20px !important;
+}
+.student-publications-list ul li {
+  margin-bottom: 20px;
+}
+.student-publications-list ul li:last-child {
+  margin-bottom: 0;
+}
+.mail a {
+  color: #414042 !important;
+  transition: .3s all;
+}
+.mail a:hover {
+  color: #C76C14 !important;
+}
+.list-item ul {
+  margin: 0 0 0 20px !important;
+}
+.list-item ul li::marker {
+  color: #C76C14;
+}
+.seminars-list ul li {
+  margin-bottom: 25px;
+}
+.seminars-list ul li:last-child {
+  margin-bottom: 0;
+}
+.elementor-post__thumbnail__link {
+  margin-bottom: 0 !important;
+}
+.buttons-area .elementor-widget-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 3%;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+.buttons-area .elementor-widget-wrap .elementor-element {
+  width: 30%;
+}
+.buttons-area .elementor-widget-wrap .elementor-element .elementor-widget-container {
+  height: 100%;
+}
+.buttons-area .elementor-widget-wrap .elementor-element .elementor-widget-container .elementor-cta {
+  height: 100%;
+}
+.post-content blockquote {
+  border-left: 3px solid #C76C14;
+}
+.post-content h1,
+h2 {
+  font-size: 28px;
+}
+.post-content h3,
+h4 {
+  font-size: 24px;
+}
+.post-content h5,
+h6 {
+  font-size: 20px;
+}
+.post-content ul,
+ol {
+  padding: 0 0 20px 0;
+  margin: 0 0 0 20px !important;
+}
+.post-content ul li::marker {
+  color: #C76C14;
+}
+@media all and (max-width: 1024px) {
+  .quote-area br {
+    display: none;
+  }
+  .title-divider {
+    display: block;
+    white-space: unset !important;
+  }
+  .title-divider::after {
+    margin: 0;
+    bottom: 0;
+    width: 170px;
+    position: absolute;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .teaching-cta-area .elementor-cta__description span {
+    padding-bottom: 15px;
+  }
+  .list-item ul li br {
+    display: none;
+  }
+  .post-content h1,
+  h2 {
+    font-size: 24px;
+  }
+  .post-content h3,
+  h4 {
+    font-size: 20px;
+  }
+  .post-content h5,
+  h6 {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 767px) {
+  .buttons-area .elementor-widget-wrap {
+    grid-row-gap: 30px;
+  }
+  .buttons-area .elementor-widget-wrap .elementor-element {
+    width: 100%;
+    height: auto;
+  }
+  .teaching-cta-area .elementor-widget-call-to-action {
+    width: 100% !important;
+  }
+  .teaching-cta-area .elementor-widget-wrap {
+    grid-row-gap: 30px;
+  }
+}
+.logged-in .faculty-login {
+  display: none!important;
+}
+body:not(.logged-in) .faculty-dashboard {
+  display: none!important;
+}
